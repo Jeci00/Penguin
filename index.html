@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>penguin</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <button class="tablink" onclick="openPage('Home', this, '#f0af7a')">Home</button>
+  <button class="tablink" onclick="openPage('News', this, '#f0af7a')" id="defaultOpen">News</button>
+  <button class="tablink" onclick="openPage('Contact', this, '#f0af7a')">Contact</button>
+  <button class="tablink" onclick="openPage('About', this, '#f0af7a')">About</button>
+
+  <div id="Home" class="tabcontent">
+    <h3>Quiz</h3>
+    <p>1 in 5,000 north Atlantic lobsters are born bright blue.<br>There are 10 human body parts that are only 3 letters
+      long (eye hip arm leg ear toe jaw rib lip gum).<br> A skunk's smell can be detected by a human a mile away.
+      <br>The word "lethologica" describes the state of not being able to remember the word you want.<br> The king of
+      hearts is the only king without a moustache.<br> Every year about 98% of the atoms in your body are
+      replaced.<br>Elephants are the only mammals that can't jump.<br>The international telephone dialing code for
+      Antarctica is 672.<br>World Tourist day is observed on September 27.
+    </p>
+
+    <div id="quiz"></div>
+    <button id="submit">Get Results</button>
+    <div id="results"></div>
+  </div>
+
+  <div id="News" class="tabcontent">
+    <h3>News</h3>
+    <p>Some news this fine day!</p>
+    <p>You can use this to make your to do list :)</p>
+    <input id="in1" type="text" placeholder="enter items">
+    <button id="btn1">Enter</button>
+    <ul id="ul1"></ul>
+  </div>
+
+  <div id="Contact" class="tabcontent">
+    <h3>Contact</h3>
+    <p>Hi,<br> currently trying to find out how to make a messaging box so i get messages that someone is trying to send
+    </p>
+  </div>
+
+  <div id="About" class="tabcontent">
+    <h3>About</h3>
+    <p>My name is Jelena Milovanovic, my education is mostly focused on law and economics but i recently started
+      learning web development. I have experience in sales mostly but if you are interested in more info about me you
+      can contact me. I'm for now an HTML and CSS developer and aspiring to learn much more about web and soon to be a
+      full stack developer.</p>
+  </div>
+
+
+  
+  <!--   <div class="icon-bar">
+    <a class="active" href="#"><i class="fa fa-home"></i></a>
+    <a href="#"><i class="fa fa-search"></i></a>
+    <a href="#"><i class="fa fa-envelope"></i></a>
+    <a href="#"><i class="fa fa-briefcase"></i></a>
+    <a href="#"><i class="fa fa-trash"></i></a>
+  </div>
+ -->
+  <script src="script.js"></script>
+
+
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+ <!--  <script src="https://replit.com/public/js/replit-badge.js"></script> -->
+</body>
+
+</html>
